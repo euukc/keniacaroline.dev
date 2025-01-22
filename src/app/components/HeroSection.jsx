@@ -17,7 +17,7 @@ export default function HeroSection() {
 
     return (
         <section>
-            <main className="max-w-screen-lg mx-auto md:px-4">
+            <main className="max-w-screen-lg mx-auto px-4">
                 <div className="h-[77vh] flex flex-col justify-center items-center">
                     <RoughNotation
                         type="underline"
