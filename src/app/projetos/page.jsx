@@ -16,7 +16,7 @@ export default function Projetos() {
     }, []);
     return (
         <div className="w-full min-h-screen">
-            <div className="flex flex-col text-left gap-4 p-4 min-h-screen w-full pt-[130px] max-w-[1400px] mx-auto">
+            <div className="flex flex-col text-left gap-4 p-4 min-h-screen w-full pt-[130px] md:max-w-[1400px] mx-auto">
                 <div className='p-4'>
                     <RoughNotation
                         type="box"
@@ -29,7 +29,7 @@ export default function Projetos() {
                     </RoughNotation>
                 </div>
                 <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white">
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <div>
                             <Image
                                 src="/3d-platform.jpg"
@@ -75,7 +75,7 @@ export default function Projetos() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/sistema-calculo-lucro.jpg"
                             alt="Sistema de Cálculo e Análise de Lucro"
@@ -111,7 +111,7 @@ export default function Projetos() {
                     </div>
 
 
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/agendamento-online.png"
                             alt="Sistema de Agendamento Online"
@@ -142,7 +142,7 @@ export default function Projetos() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/bymodela-site.jpg"
                             alt="Site Institucional para Modeladora 3D"
@@ -173,7 +173,7 @@ export default function Projetos() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/lp-hamburgueria.png"
                             alt="Site Institucional para Hamburgueria"
@@ -207,7 +207,7 @@ export default function Projetos() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/lp-advogados.png"
                             alt="Site Institucional para Advogados"
@@ -235,7 +235,7 @@ export default function Projetos() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/lp-barbearias.jpg"
                             alt="Site para Barbearia"
@@ -269,7 +269,7 @@ export default function Projetos() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/catalogo.jpg"
                             alt="Catálogo de Produtos"
@@ -298,7 +298,7 @@ export default function Projetos() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/fatos-de-patos.jpg"
                             alt="Catálogo de Produtos"
@@ -333,7 +333,7 @@ export default function Projetos() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-min-h-[500px]">
                         <Image
                             src="/bolsa-carne-site.png"
                             alt="Catálogo de Produtos"
@@ -368,7 +368,7 @@ export default function Projetos() {
                         </div>
                     </div>
 
-                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[400px] min-h-[500px]">
+                    <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-[250px] md:w-[400px] min-h-[500px]">
                         <Image
                             src="/linkbio.jpg"
                             alt="Linkbio estilo Linktree"
