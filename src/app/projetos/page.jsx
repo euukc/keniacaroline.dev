@@ -5,8 +5,26 @@ import Link from 'next/link';
 import { useState, useEffect } from "react";
 import { RoughNotation } from "react-rough-notation";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Tooltip } from "@heroui/tooltip";
 
 export default function Projetos() {
+
+    const placements = [
+        "top-start",
+        "top",
+        "top-end",
+        "bottom-start",
+        "bottom",
+        "bottom-end",
+        "left-start",
+        "left",
+        "left-end",
+        "right-start",
+        "right",
+        "right-end",
+    ];
+
+
     const [show, setShow] = useState(false);
 
 
@@ -66,11 +84,14 @@ export default function Projetos() {
                                 </span>
                             </div>
                             <div className='mt-4 flex flex-row gap-2 flex-wrap pb-6'>
-
-                                <Link className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm" href="https://frontend-new3dplatform.vercel.app/" target='_blank'>
-                                    <i class="bi bi-arrow-up-right"></i>
-                                    Visitar
-                                </Link>
+                                <Tooltip
+                                    className='text-red-400'
+                                    content="Em desenvolvimento, volte em breve!" showArrow={true} placement="right">
+                                    <p className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm cursor-not-allowed" href="#" target='_blank'>
+                                        <i className="bi bi-arrow-up-right"></i>
+                                        Visitar
+                                    </p>
+                                </Tooltip>
                             </div>
                         </div>
                     </div>
@@ -262,10 +283,14 @@ export default function Projetos() {
                             </div>
                             <div className='mt-4 flex flex-row gap-2 flex-wrap'>
 
-                                <Link className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm" href="https://barbershop-lp.vercel.app/" target='_blank'>
-                                    <i class="bi bi-arrow-up-right"></i>
-                                    Visitar
-                                </Link>
+                                <Tooltip
+                                    className='text-red-400'
+                                    content="Em desenvolvimento, volte em breve!" showArrow={true} placement="right">
+                                    <p className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm cursor-not-allowed" href="#" target='_blank'>
+                                        <i className="bi bi-arrow-up-right"></i>
+                                        Visitar
+                                    </p>
+                                </Tooltip>
                             </div>
                         </div>
                     </div>
