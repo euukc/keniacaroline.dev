@@ -163,7 +163,7 @@ export default function Projetos() {
                     </div>
                     <div className="rounded-lg border bg-[#1e1e1e] text-white shadow-md flex flex-col overflow-hidden w-full md:w-[400px] min-h-[500px]">
                         <Image
-                            src="/bymodela-site.jpg"
+                            src="/bymodela-site.png"
                             alt="Site Institucional para Modeladora 3D"
                             width={500}
                             height={300}
@@ -185,10 +185,10 @@ export default function Projetos() {
                             </div>
                             <div className='mt-4 flex flex-row gap-2 flex-wrap'>
 
-                                <Link className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm" href="https://bymodela-site.vercel.app/" target='_blank'>
-                                    <i class="bi bi-arrow-up-right"></i>
-                                    Visitar
-                                </Link>
+                            <p className="gap-2 inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent  h-10 px-4 py-2 text-sm cursor-not-allowed" href="#" target='_blank'>
+                                    {/* <i className="bi bi-arrow-up-right"></i> */}
+                                    Em desenvolvimento
+                                </p>
                             </div>
                         </div>
                     </div>
